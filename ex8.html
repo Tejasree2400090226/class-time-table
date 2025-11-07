@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-row: 10% 80% 10%;
+            grid-column: 30% 35% 30%;
+            height: 100ch;
+        }
+        .hd{
+            background-color: rgba(139, 0, 130, 0.808);
+            grid-row: 1/2;
+            grid-column: 1/4;
+            height: 10ch;
+           
+        }
+        .lb{
+            background-color: rgb(255, 228, 196);
+            grid-row: 2/3;
+            grid-column: 1/2;
+            height: 80ch;
+           
+            
+        }
+        .ms{
+            background-color: rgba(62, 5, 154, 0.651);
+            
+            grid-row: 2/3;
+            grid-column: 2/3;
+            height: 80ch;
+        }
+        .rb{
+            background-color: rgba(250, 235, 215, 0.562);
+            grid-row: 2/3;
+            grid-column: 3/4;
+            height: 80ch;
+        }
+        .f{
+            background-color: cadetblue;
+            grid-row: 3/4;
+            grid-column: 1/4;
+            height: 10ch;
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="hd">Header</div>
+        <div class="lb">Leftside bar</div>
+        <div class="ms">Min section</div>
+        <div class="rb">Right side bar</div>
+        <div class="f">Fotter</div>
+        
+    </div>
+</body>
+</html>

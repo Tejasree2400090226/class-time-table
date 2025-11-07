@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>haa</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Navbar styling */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(237, 166, 215, 0.669);
+      padding: 10px 20px;
+    }
+
+    /* Logo section */
+    .navbar .logo img {
+      height: 40px;
+    }
+
+    /* Title section */
+    .navbar .title {
+      flex: 2;
+      text-align: center;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #000;
+    }
+
+    /* Navigation links */
+    .navbar .links a {
+      color: rgb(11, 3, 3);
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .navbar .links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive navbar */
+    @media (max-width: 700px) {
+      .navbar {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .navbar .links {
+        margin-top: 10px;
+      }
+
+      .navbar .links a {
+        display: inline-block;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="kl.png" alt="KL University Logo" style="width: 200px;">
+    </div>
+
+    <div class="title">
+      Learning Management System
+    </div>
+
+    <div class="links">
+      <a href="https://www.kluniversity.in" target="_blank">Home</a>
+      <a href="https://newerp.kluniversity.in/" target="_blank">About</a>
+      <a href="#">Sign In / Sign Up</a>
+    </div>
+  </nav>
+</body>
+</html>
